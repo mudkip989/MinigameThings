@@ -1,0 +1,4 @@
+name: MinigameThings
+version: '${project.version}'
+main: me.mudkip989.plugins.minigamethings.MinigameThings
+api-version: 1.20
