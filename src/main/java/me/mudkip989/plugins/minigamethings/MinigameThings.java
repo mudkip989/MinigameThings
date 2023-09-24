@@ -1,5 +1,6 @@
 package me.mudkip989.plugins.minigamethings;
 
+import me.mudkip989.plugins.minigamethings.Commands.*;
 import org.bukkit.plugin.*;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -17,6 +18,7 @@ public final class MinigameThings extends JavaPlugin {
         instance = this;
         log.info( "Getting config...");
         // Plugin startup logic
+        this.getCommand("tag").setExecutor(new Tag());
 
     }
 
